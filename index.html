@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>codex - loader</title>
+
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+  <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+  
+  <style type='text/css'>
+  body
+  {
+	  margin:0;
+	  padding:0;
+  }
+    .right{
+    float:right;
+    width:82%;
+    height:100%;
+    background:#1b5e89;
+}
+.left{
+    overflow:hidden;
+    background:#649ec3;
+	width:18%;
+    height:100%;
+}
+
+html, body{
+    height:100%;
+}
+#dropdown
+{
+
+	height:auto;
+	background-color:#2b2b2b;
+	position:relative;
+	  margin-top:45%;
+}
+#dropdown ul { 
+   width:100%;
+  -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  padding:0;
+
+}
+#dropdown ul li { 
+font-size: 0.9em;
+ padding-top:20px;
+  padding-bottom:20px;
+ width:100%;
+ list-style:none;
+ color:#FFF;
+  font-family: 'Jura', sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  text-align:center;
+ 
+ }
+ #dropdown ul li:hover
+ {
+	 background-color:#1c1c1c;
+	 cursor:pointer;
+	 color:#59d9c5;
+ }
+.canvas_elemt
+{
+	    width: 170px;
+    height:170px;
+    margin: 0px auto;
+	margin-top:15px;
+	margin-top:20%;
+}
+
+  </style>
+  
+
+
+<script type='text/javascript'>//<![CDATA[ 
+window.addEvent('load', function() {
+
+
+});//]]>  
+
+</script>
+
+
+</head>
+<body>
+  <div class="right">   <div class="canvas_elemt">
+            <canvas id="myCanvas" width="170" height="170">
+            </canvas>
+          </div> </div>
+<div class="left">  <div id="dropdown" class="ddmenu">
+      
+      <ul>
+        <li data-pamt='10'>HTML5</li>
+        <li data-pamt='20'>JQUERY</li>
+        <li data-pamt='30'>JAVASCRIPT</li>
+        <li data-pamt='60'>CSS3</li>
+        <li data-pamt='80'>PHOTOSHOP</li>
+      </ul>
+    </div></div>
+    
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>  
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="loader.js"></script>
+    <script>
+ 
+
+
+
+  $("ul li").codexgraph({
+    knobcolor: '#14b9d5',
+	fillcolor: '#fff',
+	textcolor: '#000',
+    });
+	
+	
+	
+$("ul li:first").trigger("click");
+$("ul li:first").css({
+   'color' : '#59d9c5',
+   "background-color" : '#1c1c1c;',
+   
+});
+
+ $("ul li").click(function() {
+     $("ul li").css({
+   'color' : '#FFF',
+   "background-color" : '#1c1c1c;',
+   
+});
+    $(this).css({
+   'color' : '#59d9c5',
+   "background-color" : '#000;',
+   
+});
+});
+</script>
+
+</body>
+
+
+</html>
+

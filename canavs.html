@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+ <!--[if lt IE 8]><script type="text/javascript" src="flashcanvas.js"></script><![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+	  canvas
+	  {
+		  font-family: 'Jura', sans-serif;
+		  font-size:30px;
+	  }
+    </style>
+  </head>
+  <body>
+  <div class="demo" data-pamt='10' > frameworks</div>
+   <div  class="demo" data-pamt='20'> jq</div>
+    <div class="demo" data-pamt='40'> java</div>
+     <div class="demo" data-pamt='80'>html</div>
+     <div class="demo" data-pamt='100'>google</div>
+    <canvas id="myCanvas" width="175" height="175"></canvas>
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        
+ <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>  
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+
+		<script type="text/javascript" src="loader.js"></script>
+    <script>
+ 
+
+
+
+  $( ".demo" ).codexloader({
+    knobcolor: '#14b9d5',
+	fillcolor: '#fff',
+	textcolor: '#000',
+    });
+
+
+
+
+    </script>
+  </body>
+</html>      
