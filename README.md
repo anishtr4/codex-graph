@@ -8,7 +8,7 @@ Highly customizable light weight graph plugin
 
 
 
-![alt tag](codex-graph
+
 ==============
 
 
