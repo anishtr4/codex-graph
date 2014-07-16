@@ -28,7 +28,7 @@ you can change the "data-pamt='10'" value to any amount b/w 0 to 100
          &lt;li data-pamt='100'&gt;>PHOTOSHOP&lt;/li&gt;
     &lt;/ul&gt;
   
-&lt;/blockquote&gt;
+
 </code></pre>
   <blockquote>
   <ul>
