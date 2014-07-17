@@ -30,15 +30,7 @@ you can change the "data-pamt='10'" value to any amount b/w 0 to 100
   
 
 </code></pre>
-  <blockquote>
-  <ul>
-        <li data-pamt='10'>HTML5</li>
-        <li data-pamt='20'>JQUERY</li>
-        <li data-pamt='30'>JAVASCRIPT</li>
-        <li data-pamt='60'>CSS3</li>
-        <li data-pamt='80'>PHOTOSHOP</li>
-      </ul>
-</blockquote>
+
 ## Basic usage
 
 initialize the plugin 
