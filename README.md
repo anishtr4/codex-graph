@@ -19,7 +19,7 @@ Highly customizable light weight graph plugin
 ## html
 you can change the "data-pamt='10'" value to any amount b/w 0 to 100 
   
-  <pre><code>&lt;blockquote&gt;
+  <pre><code>
     &lt;ul&gt;
      &lt;li data-pamt='10'&gt;>HTML5&lt;/li&gt;
         &lt;li data-pamt='25'&gt;>JQUERY&lt;/li&gt;
