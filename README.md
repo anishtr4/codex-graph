@@ -21,11 +21,11 @@ you can change the "data-pamt='10'" value to any amount b/w 0 to 100
   
   <pre><code>
     &lt;ul&gt;
-     &lt;li data-pamt='10'&gt;>HTML5&lt;/li&gt;
-        &lt;li data-pamt='25'&gt;>JQUERY&lt;/li&gt;
-        &lt;li data-pamt='60'&gt;>JAVASCRIPT&lt;/li&gt;
-         &lt;li data-pamt='40'&gt;>CSS3&lt;/li&gt;
-         &lt;li data-pamt='100'&gt;>PHOTOSHOP&lt;/li&gt;
+     &lt;li data-pamt='10'&gt;HTML5&lt;/li&gt;
+        &lt;li data-pamt='25'&gt;JQUERY&lt;/li&gt;
+        &lt;li data-pamt='60'&gt;JAVASCRIPT&lt;/li&gt;
+         &lt;li data-pamt='40'&gt;CSS3&lt;/li&gt;
+         &lt;li data-pamt='100'&gt;PHOTOSHOP&lt;/li&gt;
     &lt;/ul&gt;
   
 
