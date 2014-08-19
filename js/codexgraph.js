@@ -31,7 +31,7 @@
             var per = $(this).attr("data-pamt");
 
 
-            var canvas = document.getElementById('myCanvas');
+            var canvas = document.getElementById('codex_graph');
             var context = canvas.getContext('2d');
             var x = canvas.width / 2;
             var y = canvas.height / 2;
