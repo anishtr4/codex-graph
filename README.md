@@ -17,6 +17,8 @@ Highly customizable light weight graph plugin
 
 
 ## html
+<canvas id="codex_graph" width="170" height="170"></canvas>
+
 you can change the "data-pamt='10'" value to any amount b/w 0 to 100 
   
   <pre><code>
